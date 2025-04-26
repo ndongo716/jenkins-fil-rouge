@@ -2,8 +2,8 @@ pipeline {
     agent ec2-node1
 
     environment {
-        DOCKER_HUB_CREDENTIALS = 'jnk-creds' 
-        DOCKERHUB_USER = 'mormbathie'       
+        DOCKER_HUB_CREDENTIALS = 'dockerhubkey' 
+        DOCKERHUB_USER = 'geek120804'       
     }
 
     stages {
