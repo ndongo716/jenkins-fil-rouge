@@ -1,5 +1,5 @@
 pipeline {
-    agent any
+    agent ec2-node1
 
     environment {
         DOCKER_HUB_CREDENTIALS = 'jnk-creds' 
