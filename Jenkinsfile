@@ -1,5 +1,5 @@
 pipeline {
-    agent {ec2-node1}
+    agent ec2-node1
 
     environment {
         DOCKER_HUB_CREDENTIALS = 'dockerhubkey' 
